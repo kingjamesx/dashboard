@@ -10,21 +10,16 @@ body {
   box-sizing: border-box;
   font-family: 'Mulish', sans-serif; 
 }
-/* *,.html{
-  box-sizing:border-box;
-  padding: 0;
-  margin:0;
-} */
+
 .border-articles {
-  border-bottom: 1px solid #DFE0EB; /* Adjust the color and border style as needed */
+  border-bottom: 1px solid #DFE0EB; 
 }
 .block{
   display: block;
 }
-.active-svg{
-}
+
 .MuiDataGrid-colCell:hover {
-  border-right: none; /* Remove the border on hover */
+  border-right: none !important; 
 }
 .css-kzyyzb-MuiDataGrid-root{
   border: none !important;
