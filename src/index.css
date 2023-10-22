@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif; 
+}
+/* *,.html{
+  box-sizing:border-box;
+  padding: 0;
+  margin:0;
+} */
+.border-articles {
+  border-bottom: 1px solid #DFE0EB; /* Adjust the color and border style as needed */
+}
+.block{
+  display: block;
+}
+.active-svg{
+}
+.MuiDataGrid-colCell:hover {
+  border-right: none; /* Remove the border on hover */
+}
+.css-kzyyzb-MuiDataGrid-root{
+  border: none !important;
+}
+.css-kzyyzb-MuiDataGrid-root .MuiDataGrid-columnSeparator--sideRight{
+  display: none !important;
+}
+.MuiDataGrid-root .MuiDataGrid-cell:focus {
+  outline: none !important;
+}
+ .MuiDataGrid-columnHeader:focus{
+  outline: none !important;
+
+}
+.ticket-cell .css-t89xny-MuiDataGrid-columnHeaderTitle:first-child {
+  margin-left: 31px;
+  color:#9FA2B4;
+  font-weight:700;
+  font-size: 14px;
+}
+.head-cell .css-t89xny-MuiDataGrid-columnHeaderTitle{
+  color:#9fa2b4;
+  font-weight:700 !important;
+  font-size: 14px;
+}
+.addCircle{
+  color: #F0F1F7;
+}
+
+
